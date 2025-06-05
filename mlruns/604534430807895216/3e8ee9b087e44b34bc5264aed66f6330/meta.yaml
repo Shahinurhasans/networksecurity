@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/604534430807895216/3e8ee9b087e44b34bc5264aed66f6330/artifacts
+end_time: 1749147476178
+entry_point_name: ''
+experiment_id: '604534430807895216'
+lifecycle_stage: active
+run_id: 3e8ee9b087e44b34bc5264aed66f6330
+run_name: loud-calf-962
+run_uuid: 3e8ee9b087e44b34bc5264aed66f6330
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749147468280
+status: 3
+tags: []
+user_id: Shahinurhasans

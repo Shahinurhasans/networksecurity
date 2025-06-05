@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/604534430807895216/1723ec87c33a42b08b8102175c2d3ad7/artifacts
+end_time: 1749146560145
+entry_point_name: ''
+experiment_id: '604534430807895216'
+lifecycle_stage: active
+run_id: 1723ec87c33a42b08b8102175c2d3ad7
+run_name: masked-hare-601
+run_uuid: 1723ec87c33a42b08b8102175c2d3ad7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749146539036
+status: 3
+tags: []
+user_id: Shahinurhasans

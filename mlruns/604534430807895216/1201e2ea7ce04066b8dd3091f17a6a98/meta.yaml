@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/604534430807895216/1201e2ea7ce04066b8dd3091f17a6a98/artifacts
+end_time: 1749146409835
+entry_point_name: ''
+experiment_id: '604534430807895216'
+lifecycle_stage: active
+run_id: 1201e2ea7ce04066b8dd3091f17a6a98
+run_name: bright-roo-786
+run_uuid: 1201e2ea7ce04066b8dd3091f17a6a98
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749146403161
+status: 3
+tags: []
+user_id: Shahinurhasans

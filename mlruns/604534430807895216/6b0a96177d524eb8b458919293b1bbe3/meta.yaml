@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/604534430807895216/6b0a96177d524eb8b458919293b1bbe3/artifacts
+end_time: 1749140828434
+entry_point_name: ''
+experiment_id: '604534430807895216'
+lifecycle_stage: active
+run_id: 6b0a96177d524eb8b458919293b1bbe3
+run_name: stylish-donkey-280
+run_uuid: 6b0a96177d524eb8b458919293b1bbe3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749140818472
+status: 3
+tags: []
+user_id: Shahinurhasans

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/604534430807895216/34d7c343c84b4bdeb9425b899be107c4/artifacts
+end_time: 1749147729757
+entry_point_name: ''
+experiment_id: '604534430807895216'
+lifecycle_stage: active
+run_id: 34d7c343c84b4bdeb9425b899be107c4
+run_name: adaptable-hare-686
+run_uuid: 34d7c343c84b4bdeb9425b899be107c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749147718972
+status: 3
+tags: []
+user_id: Shahinurhasans

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/604534430807895216/1f88d811e9ee4eadadbaf0da2f7e3b52/artifacts
+end_time: 1749146762852
+entry_point_name: ''
+experiment_id: '604534430807895216'
+lifecycle_stage: active
+run_id: 1f88d811e9ee4eadadbaf0da2f7e3b52
+run_name: beautiful-bear-998
+run_uuid: 1f88d811e9ee4eadadbaf0da2f7e3b52
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749146587439
+status: 3
+tags: []
+user_id: Shahinurhasans

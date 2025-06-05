@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/604534430807895216/85e4f8d37bc64bcea3d2a22e0f622c89/artifacts
+end_time: 1749146820533
+entry_point_name: ''
+experiment_id: '604534430807895216'
+lifecycle_stage: active
+run_id: 85e4f8d37bc64bcea3d2a22e0f622c89
+run_name: placid-shrike-225
+run_uuid: 85e4f8d37bc64bcea3d2a22e0f622c89
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749146788181
+status: 3
+tags: []
+user_id: Shahinurhasans

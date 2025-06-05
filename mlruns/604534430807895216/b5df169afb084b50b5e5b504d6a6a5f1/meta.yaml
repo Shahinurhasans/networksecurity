@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/604534430807895216/b5df169afb084b50b5e5b504d6a6a5f1/artifacts
+end_time: 1749148011559
+entry_point_name: ''
+experiment_id: '604534430807895216'
+lifecycle_stage: active
+run_id: b5df169afb084b50b5e5b504d6a6a5f1
+run_name: resilient-cat-408
+run_uuid: b5df169afb084b50b5e5b504d6a6a5f1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749148005074
+status: 3
+tags: []
+user_id: Shahinurhasans

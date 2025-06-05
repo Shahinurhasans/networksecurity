@@ -1,0 +1,35 @@
+[2025-06-06 00:21:05,996] 1025 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-06-06 00:21:06,003] 107 - INFO - Accessing as Shahinurhasans
+[2025-06-06 00:21:06,520] 1025 - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Shahinurhasans/networksecurity "HTTP/1.1 200 OK"
+[2025-06-06 00:21:07,054] 1025 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-06-06 00:21:07,059] 107 - INFO - Initialized MLflow to track repo "Shahinurhasans/networksecurity"
+[2025-06-06 00:21:07,061] 107 - INFO - Repository Shahinurhasans/networksecurity initialized!
+[2025-06-06 00:21:07,493] 20 - INFO - Initiate the data ingestion
+[2025-06-06 00:21:17,006] 65 - INFO - Performed train test split on the dataframe
+[2025-06-06 00:21:17,006] 67 - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[2025-06-06 00:21:17,007] 75 - INFO - Exporting train and test file path.
+[2025-06-06 00:21:17,064] 84 - INFO - Exported train and test file path.
+[2025-06-06 00:21:17,065] 22 - INFO - Data Initiation Completed
+[2025-06-06 00:21:17,072] 26 - INFO - Initiate the data Validation
+[2025-06-06 00:21:17,145] 32 - INFO - Required number of columns:2
+[2025-06-06 00:21:17,145] 33 - INFO - Data frame has columns:31
+[2025-06-06 00:21:17,145] 32 - INFO - Required number of columns:2
+[2025-06-06 00:21:17,145] 33 - INFO - Data frame has columns:31
+[2025-06-06 00:21:17,329] 28 - INFO - data Validation Completed
+[2025-06-06 00:21:17,331] 31 - INFO - data Transformation started
+[2025-06-06 00:21:17,331] 63 - INFO - Entered initiate_data_transformation method of DataTransformation class
+[2025-06-06 00:21:17,331] 65 - INFO - Starting data transformation
+[2025-06-06 00:21:17,362] 48 - INFO - Entered get_data_trnasformer_object method of Trnasformation class
+[2025-06-06 00:21:17,362] 53 - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2025-06-06 00:21:26,044] 41 - INFO - Entered the save_object method of MainUtils class
+[2025-06-06 00:21:26,044] 45 - INFO - Exited the save_object method of MainUtils class
+[2025-06-06 00:21:26,044] 41 - INFO - Entered the save_object method of MainUtils class
+[2025-06-06 00:21:26,044] 45 - INFO - Exited the save_object method of MainUtils class
+[2025-06-06 00:21:26,044] 35 - INFO - data Transformation completed
+[2025-06-06 00:21:26,044] 37 - INFO - Model Training sstared
+[2025-06-06 00:26:57,902] 41 - INFO - Entered the save_object method of MainUtils class
+[2025-06-06 00:26:57,903] 45 - INFO - Exited the save_object method of MainUtils class
+[2025-06-06 00:26:57,903] 41 - INFO - Entered the save_object method of MainUtils class
+[2025-06-06 00:26:57,939] 45 - INFO - Exited the save_object method of MainUtils class
+[2025-06-06 00:26:57,939] 175 - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='artifact\\06_06_2025_00_21_00\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9923278820916617, precision_score=0.9885358004827032, recall_score=0.996149169031212), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9736735520453625, precision_score=0.9646869983948636, recall_score=0.9828291087489779))
+[2025-06-06 00:26:57,945] 42 - INFO - Model Training artifact created

@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1749145880450
+current_stage: None
+description: ''
+last_updated_timestamp: 1749145880450
+name: RandomForestClassifier
+run_id: 18deb3873a414f5cab53e7e1cab18d11
+run_link: ''
+source: mlflow-artifacts:/604534430807895216/18deb3873a414f5cab53e7e1cab18d11/artifacts/model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/604534430807895216/18deb3873a414f5cab53e7e1cab18d11/artifacts/model
+user_id: null
+version: 5

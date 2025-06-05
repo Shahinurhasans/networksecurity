@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/604534430807895216/9917d364318e4dbdaf1c81bca3057a0b/artifacts
+end_time: 1749148017797
+entry_point_name: ''
+experiment_id: '604534430807895216'
+lifecycle_stage: active
+run_id: 9917d364318e4dbdaf1c81bca3057a0b
+run_name: placid-skunk-601
+run_uuid: 9917d364318e4dbdaf1c81bca3057a0b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749148011750
+status: 3
+tags: []
+user_id: Shahinurhasans

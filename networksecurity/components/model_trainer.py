@@ -31,19 +31,23 @@ from urllib.parse import urlparse
 import mlflow
 
 
-mlflow.set_tracking_uri("http://127.0.0.1:5000/")
-mlflow.set_experiment("First Experiment")
+#mlflow.set_tracking_uri("http://127.0.0.1:5000/")
 
 
-import dagshub
-#dagshub.init(repo_owner='krishnaik06', repo_name='networksecurity', mlflow=True)
+
 
 #os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/krishnaik06/networksecurity.mlflow"
 #os.environ["MLFLOW_TRACKING_USERNAME"]="krishnaik06"
-#os.environ["MLFLOW_TRACKING_PASSWORD"]="7104284f1bb44ece21e0e2adb4e36a250ae3251f"
+#os.environ["MLFLOW_TRACKING_PASSWORD"]="7104284f1bb44ece21e0e2adb4e36a250ae3251f
 
 
+import dagshub
+dagshub.init(repo_owner='Shahinurhasans', repo_name='networksecurity', mlflow=True)
+mlflow.autolog()
+os.environ["MLFLOW_TRACKING_USERNAME"] = "Shahinurhasans"
+os.environ["MLFLOW_TRACKING_PASSWORD"] = "488bc5d360f5c4e9a46297285cf32632a066a1b6"
 
+mlflow.set_experiment("First Experiment")
 
 
 class ModelTrainer:
@@ -58,7 +62,7 @@ class ModelTrainer:
 
 
     def track_mlflow(self, best_model, classificationmetric):
- with mlflow.start_run():
+      with mlflow.start_run():
         f1_score = classificationmetric.f1_score
         precision_score = classificationmetric.precision_score
         recall_score = classificationmetric.recall_score

@@ -1,0 +1,28 @@
+digest: 1cc3482c
+name: dataset
+profile: '{"num_rows": 2211, "num_elements": 66330}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "having_IP_Address", "required":
+  true}, {"type": "long", "name": "URL_Length", "required": true}, {"type": "long",
+  "name": "Shortining_Service", "required": true}, {"type": "long", "name": "having_At_Symbol",
+  "required": true}, {"type": "long", "name": "double_slash_redirecting", "required":
+  true}, {"type": "long", "name": "Prefix_Suffix", "required": true}, {"type": "long",
+  "name": "having_Sub_Domain", "required": true}, {"type": "long", "name": "SSLfinal_State",
+  "required": true}, {"type": "long", "name": "Domain_registeration_length", "required":
+  true}, {"type": "long", "name": "Favicon", "required": true}, {"type": "long", "name":
+  "port", "required": true}, {"type": "long", "name": "HTTPS_token", "required": true},
+  {"type": "long", "name": "Request_URL", "required": true}, {"type": "long", "name":
+  "URL_of_Anchor", "required": true}, {"type": "long", "name": "Links_in_tags", "required":
+  true}, {"type": "long", "name": "SFH", "required": true}, {"type": "long", "name":
+  "Submitting_to_email", "required": true}, {"type": "long", "name": "Abnormal_URL",
+  "required": true}, {"type": "long", "name": "Redirect", "required": true}, {"type":
+  "long", "name": "on_mouseover", "required": true}, {"type": "long", "name": "RightClick",
+  "required": true}, {"type": "long", "name": "popUpWidnow", "required": true}, {"type":
+  "long", "name": "Iframe", "required": true}, {"type": "long", "name": "age_of_domain",
+  "required": true}, {"type": "long", "name": "DNSRecord", "required": true}, {"type":
+  "long", "name": "web_traffic", "required": true}, {"type": "long", "name": "Page_Rank",
+  "required": true}, {"type": "long", "name": "Google_Index", "required": true}, {"type":
+  "long", "name": "Links_pointing_to_page", "required": true}, {"type": "long", "name":
+  "Statistical_report", "required": true}]}'
+source: '{"tags": {"mlflow.user": "Shahinurhasans", "mlflow.source.name": "main.py",
+  "mlflow.source.type": "LOCAL", "mlflow.source.git.commit": "9e77d9687821964dcb5573df2d18cb2fb1e3e487"}}'
+source_type: code
