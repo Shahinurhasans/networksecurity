@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1749138566564
+current_stage: None
+description: ''
+last_updated_timestamp: 1749138566564
+name: networksecurity
+run_id: 77cdfdc392014734b16381bd61685a6e
+run_link: ''
+source: mlflow-artifacts:/604534430807895216/77cdfdc392014734b16381bd61685a6e/artifacts/model
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/604534430807895216/77cdfdc392014734b16381bd61685a6e/artifacts/model
+user_id: null
+version: 1
