@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/604534430807895216/76e950222a88485caadc7f08feddcb57/artifacts
+deleted_time: 1749149746772
 end_time: 1749146414735
 entry_point_name: ''
 experiment_id: '604534430807895216'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 76e950222a88485caadc7f08feddcb57
 run_name: masked-wasp-573
 run_uuid: 76e950222a88485caadc7f08feddcb57

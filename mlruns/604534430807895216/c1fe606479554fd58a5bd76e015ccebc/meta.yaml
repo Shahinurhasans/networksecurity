@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/604534430807895216/c1fe606479554fd58a5bd76e015ccebc/artifacts
+deleted_time: 1749149746548
 end_time: 1749147467470
 entry_point_name: ''
 experiment_id: '604534430807895216'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: c1fe606479554fd58a5bd76e015ccebc
 run_name: righteous-vole-98
 run_uuid: c1fe606479554fd58a5bd76e015ccebc

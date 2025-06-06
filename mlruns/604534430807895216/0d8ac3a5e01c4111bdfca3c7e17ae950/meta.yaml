@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/604534430807895216/0d8ac3a5e01c4111bdfca3c7e17ae950/artifacts
+deleted_time: 1749149746538
 end_time: 1749147467470
 entry_point_name: ''
 experiment_id: '604534430807895216'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 0d8ac3a5e01c4111bdfca3c7e17ae950
 run_name: skillful-deer-827
 run_uuid: 0d8ac3a5e01c4111bdfca3c7e17ae950

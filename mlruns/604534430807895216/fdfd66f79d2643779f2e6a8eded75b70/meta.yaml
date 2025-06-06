@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/604534430807895216/fdfd66f79d2643779f2e6a8eded75b70/artifacts
+deleted_time: 1749149746673
 end_time: 1749146820533
 entry_point_name: ''
 experiment_id: '604534430807895216'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: fdfd66f79d2643779f2e6a8eded75b70
 run_name: fortunate-gnat-124
 run_uuid: fdfd66f79d2643779f2e6a8eded75b70

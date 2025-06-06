@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/604534430807895216/d3f01d5bfd914cfebdbffac82da94b45/artifacts
+deleted_time: 1749149746440
 end_time: 1749147993472
 entry_point_name: ''
 experiment_id: '604534430807895216'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: d3f01d5bfd914cfebdbffac82da94b45
 run_name: funny-fawn-41
 run_uuid: d3f01d5bfd914cfebdbffac82da94b45

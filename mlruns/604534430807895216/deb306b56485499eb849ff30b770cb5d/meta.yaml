@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/604534430807895216/deb306b56485499eb849ff30b770cb5d/artifacts
+deleted_time: 1749149746589
 end_time: 1749147402543
 entry_point_name: ''
 experiment_id: '604534430807895216'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: deb306b56485499eb849ff30b770cb5d
 run_name: nebulous-perch-189
 run_uuid: deb306b56485499eb849ff30b770cb5d

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/604534430807895216/3e8ee9b087e44b34bc5264aed66f6330/artifacts
+deleted_time: 1749149746533
 end_time: 1749147476178
 entry_point_name: ''
 experiment_id: '604534430807895216'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 3e8ee9b087e44b34bc5264aed66f6330
 run_name: loud-calf-962
 run_uuid: 3e8ee9b087e44b34bc5264aed66f6330

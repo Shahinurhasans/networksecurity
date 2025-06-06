@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/604534430807895216/fcbd353aa1384009abe6378c1222236a/artifacts
+deleted_time: 1749149746769
 end_time: 1749146560145
 entry_point_name: ''
 experiment_id: '604534430807895216'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: fcbd353aa1384009abe6378c1222236a
 run_name: hilarious-moth-292
 run_uuid: fcbd353aa1384009abe6378c1222236a

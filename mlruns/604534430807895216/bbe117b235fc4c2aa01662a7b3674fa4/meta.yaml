@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/604534430807895216/bbe117b235fc4c2aa01662a7b3674fa4/artifacts
+deleted_time: 1749149746649
 end_time: 1749147167998
 entry_point_name: ''
 experiment_id: '604534430807895216'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: bbe117b235fc4c2aa01662a7b3674fa4
 run_name: fun-wolf-984
 run_uuid: bbe117b235fc4c2aa01662a7b3674fa4

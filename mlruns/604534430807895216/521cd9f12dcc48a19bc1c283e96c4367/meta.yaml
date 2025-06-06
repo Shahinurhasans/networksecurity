@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/604534430807895216/521cd9f12dcc48a19bc1c283e96c4367/artifacts
+deleted_time: 1749149746641
 end_time: 1749147186899
 entry_point_name: ''
 experiment_id: '604534430807895216'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 521cd9f12dcc48a19bc1c283e96c4367
 run_name: shivering-boar-910
 run_uuid: 521cd9f12dcc48a19bc1c283e96c4367

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/604534430807895216/e31e6de9765e4f9e990b1f1f210739d3/artifacts
+deleted_time: 1749149746589
 end_time: 1749147401848
 entry_point_name: ''
 experiment_id: '604534430807895216'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e31e6de9765e4f9e990b1f1f210739d3
 run_name: serious-turtle-955
 run_uuid: e31e6de9765e4f9e990b1f1f210739d3

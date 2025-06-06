@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/604534430807895216/6fd2d91477bf469fa75e3cb87c837d29/artifacts
+deleted_time: 1749149746470
 end_time: 1749147924195
 entry_point_name: ''
 experiment_id: '604534430807895216'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 6fd2d91477bf469fa75e3cb87c837d29
 run_name: overjoyed-hound-777
 run_uuid: 6fd2d91477bf469fa75e3cb87c837d29

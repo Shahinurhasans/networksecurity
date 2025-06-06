@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/604534430807895216/b5528a078d824b668925dd4599f296f8/artifacts
+deleted_time: 1749149746739
 end_time: 1749146580925
 entry_point_name: ''
 experiment_id: '604534430807895216'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: b5528a078d824b668925dd4599f296f8
 run_name: peaceful-hare-119
 run_uuid: b5528a078d824b668925dd4599f296f8

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/604534430807895216/f8d5b40df48942c5bc018f50990b9c41/artifacts
+deleted_time: 1749149746449
 end_time: 1749147994045
 entry_point_name: ''
 experiment_id: '604534430807895216'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: f8d5b40df48942c5bc018f50990b9c41
 run_name: angry-horse-399
 run_uuid: f8d5b40df48942c5bc018f50990b9c41

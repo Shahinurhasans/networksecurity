@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/604534430807895216/d9ab920fb86a421396095b0e8c082a43/artifacts
+deleted_time: 1749149746556
 end_time: 1749147422847
 entry_point_name: ''
 experiment_id: '604534430807895216'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: d9ab920fb86a421396095b0e8c082a43
 run_name: carefree-duck-574
 run_uuid: d9ab920fb86a421396095b0e8c082a43

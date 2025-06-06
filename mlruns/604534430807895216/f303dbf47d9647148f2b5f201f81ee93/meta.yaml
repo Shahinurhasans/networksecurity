@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/604534430807895216/f303dbf47d9647148f2b5f201f81ee93/artifacts
+deleted_time: 1749149746523
 end_time: 1749147709475
 entry_point_name: ''
 experiment_id: '604534430807895216'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: f303dbf47d9647148f2b5f201f81ee93
 run_name: bittersweet-calf-50
 run_uuid: f303dbf47d9647148f2b5f201f81ee93

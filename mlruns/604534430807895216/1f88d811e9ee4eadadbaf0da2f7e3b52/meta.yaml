@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/604534430807895216/1f88d811e9ee4eadadbaf0da2f7e3b52/artifacts
+deleted_time: 1749149746710
 end_time: 1749146762852
 entry_point_name: ''
 experiment_id: '604534430807895216'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 1f88d811e9ee4eadadbaf0da2f7e3b52
 run_name: beautiful-bear-998
 run_uuid: 1f88d811e9ee4eadadbaf0da2f7e3b52

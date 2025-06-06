@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/604534430807895216/4a8789ec71074fd89430bff21b0b8309/artifacts
+deleted_time: 1749149746695
 end_time: 1749146782048
 entry_point_name: ''
 experiment_id: '604534430807895216'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 4a8789ec71074fd89430bff21b0b8309
 run_name: honorable-bee-549
 run_uuid: 4a8789ec71074fd89430bff21b0b8309

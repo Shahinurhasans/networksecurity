@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/604534430807895216/7e8777eaa1b44da194cc7f67c5594990/artifacts
+deleted_time: 1749149746579
 end_time: 1749147401848
 entry_point_name: ''
 experiment_id: '604534430807895216'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 7e8777eaa1b44da194cc7f67c5594990
 run_name: gifted-shrimp-160
 run_uuid: 7e8777eaa1b44da194cc7f67c5594990

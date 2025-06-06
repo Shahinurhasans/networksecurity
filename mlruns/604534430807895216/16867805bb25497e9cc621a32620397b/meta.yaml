@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/604534430807895216/16867805bb25497e9cc621a32620397b/artifacts
+deleted_time: 1749149746495
 end_time: 1749147729757
 entry_point_name: ''
 experiment_id: '604534430807895216'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 16867805bb25497e9cc621a32620397b
 run_name: bemused-pig-876
 run_uuid: 16867805bb25497e9cc621a32620397b

@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/604534430807895216/d81c251a3a164a37a431cade0235b265/artifacts
+deleted_time: 1749149746519
 end_time: 1749147709475
 entry_point_name: ''
 experiment_id: '604534430807895216'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: d81c251a3a164a37a431cade0235b265
 run_name: able-snipe-99
 run_uuid: d81c251a3a164a37a431cade0235b265

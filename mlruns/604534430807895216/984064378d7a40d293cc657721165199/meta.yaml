@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/604534430807895216/984064378d7a40d293cc657721165199/artifacts
+deleted_time: 1749149746428
 end_time: 1749147993472
 entry_point_name: ''
 experiment_id: '604534430807895216'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 984064378d7a40d293cc657721165199
 run_name: adaptable-grub-568
 run_uuid: 984064378d7a40d293cc657721165199

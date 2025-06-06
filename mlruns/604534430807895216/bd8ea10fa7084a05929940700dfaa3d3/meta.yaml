@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/604534430807895216/bd8ea10fa7084a05929940700dfaa3d3/artifacts
+deleted_time: 1749149746673
 end_time: 1749146821140
 entry_point_name: ''
 experiment_id: '604534430807895216'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: bd8ea10fa7084a05929940700dfaa3d3
 run_name: placid-stag-796
 run_uuid: bd8ea10fa7084a05929940700dfaa3d3

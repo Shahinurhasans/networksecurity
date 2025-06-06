@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/604534430807895216/9c7343f66fd5497a9e9f68f025050746/artifacts
+deleted_time: 1749149746649
 end_time: 1749147187578
 entry_point_name: ''
 experiment_id: '604534430807895216'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 9c7343f66fd5497a9e9f68f025050746
 run_name: thoughtful-whale-155
 run_uuid: 9c7343f66fd5497a9e9f68f025050746

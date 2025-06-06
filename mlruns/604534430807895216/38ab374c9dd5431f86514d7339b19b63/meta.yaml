@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/604534430807895216/38ab374c9dd5431f86514d7339b19b63/artifacts
+deleted_time: 1749149746543
 end_time: 1749147467470
 entry_point_name: ''
 experiment_id: '604534430807895216'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 38ab374c9dd5431f86514d7339b19b63
 run_name: tasteful-duck-652
 run_uuid: 38ab374c9dd5431f86514d7339b19b63

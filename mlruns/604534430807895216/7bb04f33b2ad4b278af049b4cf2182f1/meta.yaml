@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/604534430807895216/7bb04f33b2ad4b278af049b4cf2182f1/artifacts
+deleted_time: 1749149746506
 end_time: 1749147718463
 entry_point_name: ''
 experiment_id: '604534430807895216'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 7bb04f33b2ad4b278af049b4cf2182f1
 run_name: awesome-skink-146
 run_uuid: 7bb04f33b2ad4b278af049b4cf2182f1

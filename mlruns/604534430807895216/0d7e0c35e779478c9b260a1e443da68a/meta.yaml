@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/604534430807895216/0d7e0c35e779478c9b260a1e443da68a/artifacts
+deleted_time: 1749149746599
 end_time: 1749147207142
 entry_point_name: ''
 experiment_id: '604534430807895216'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 0d7e0c35e779478c9b260a1e443da68a
 run_name: resilient-carp-832
 run_uuid: 0d7e0c35e779478c9b260a1e443da68a

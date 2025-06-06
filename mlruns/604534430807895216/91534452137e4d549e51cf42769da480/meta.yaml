@@ -1,8 +1,9 @@
 artifact_uri: mlflow-artifacts:/604534430807895216/91534452137e4d549e51cf42769da480/artifacts
+deleted_time: 1749149746458
 end_time: 1749147944121
 entry_point_name: ''
 experiment_id: '604534430807895216'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 91534452137e4d549e51cf42769da480
 run_name: youthful-carp-969
 run_uuid: 91534452137e4d549e51cf42769da480
