@@ -1,6 +1,0 @@
-[2025-06-06 01:09:32,830] 1025 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
-[2025-06-06 01:09:32,834] 107 - INFO - Accessing as Shahinurhasans
-[2025-06-06 01:09:33,367] 1025 - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/Shahinurhasans/networksecurity "HTTP/1.1 200 OK"
-[2025-06-06 01:09:33,839] 1025 - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
-[2025-06-06 01:09:33,856] 107 - INFO - Initialized MLflow to track repo "Shahinurhasans/networksecurity"
-[2025-06-06 01:09:33,856] 107 - INFO - Repository Shahinurhasans/networksecurity initialized!
