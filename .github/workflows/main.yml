@@ -57,6 +57,16 @@ jobs:
         run: |
           # Navigate to the repository root to ensure correct build context
           cd ${{ github.workspace }}
+
+          # Debugging: List files to confirm Dockerfile presence
+          echo "Listing files in current directory:"
+          ls -la
+
+          # Explicitly create and use a new buildx builder
+          echo "Setting up Docker Buildx builder..."
+          docker buildx create --use --name mybuilder || true # Use || true to prevent failure if builder already exists
+          docker buildx inspect --bootstrap
+
           # Build a docker container and
           # push it to ECR so that it can
           # be deployed to ECS.
