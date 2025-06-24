@@ -58,7 +58,7 @@ jobs:
           # Navigate to the repository root to ensure correct build context
           cd ${{ github.workspace }}
 
-          # Debugging: List files to confirm Dockerfile presence
+          # Debugging: List files to confirm Dockerfile presence (this should now show Dockerfile)
           echo "Listing files in current directory:"
           ls -la
 
