@@ -55,13 +55,11 @@ jobs:
           ECR_REPOSITORY: ${{ secrets.ECR_REPOSITORY_NAME }}
           IMAGE_TAG: latest
         run: |
-          # Navigate to the repository root to ensure correct build context
-          cd ${{ github.workspace }}
           # Build a docker container and
           # push it to ECR so that it can
           # be deployed to ECS.
-          # Explicitly specify Dockerfile and context
-          docker build -f Dockerfile -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
+          # Explicitly specify Dockerfile and the GitHub workspace as the build context
+          docker build -f Dockerfile -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG ${{ github.workspace }}
           docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
           echo "::set-output name=image::$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG"
 
