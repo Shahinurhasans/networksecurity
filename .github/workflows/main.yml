@@ -48,11 +48,6 @@ jobs:
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@v1
 
-
-        
-
-      
-
       - name: Build, tag, and push image to Amazon ECR
         id: build-image
         env:
@@ -60,17 +55,12 @@ jobs:
           ECR_REPOSITORY: ${{ secrets.ECR_REPOSITORY_NAME }}
           IMAGE_TAG: latest
         run: |
-         # Sanitize variables (remove any hidden newline chars)
-         ECR_REGISTRY=$(echo "$ECR_REGISTRY" | tr -d '\n' | xargs)
-         ECR_REPOSITORY=$(echo "$ECR_REPOSITORY" | tr -d '\n' | xargs)
-         IMAGE_TAG=$(echo "$IMAGE_TAG" | tr -d '\n' | xargs)
-
-    # Build and push
-    docker build -t "${ECR_REGISTRY}/${ECR_REPOSITORY}:${IMAGE_TAG}" .
-    docker push "${ECR_REGISTRY}/${ECR_REPOSITORY}:${IMAGE_TAG}"
-
-    echo "image=${ECR_REGISTRY}/${ECR_REPOSITORY}:${IMAGE_TAG}" >> "$GITHUB_OUTPUT"
-
+          # Build a docker container and
+          # push it to ECR so that it can
+          # be deployed to ECS.
+          docker buildx build --load -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
+          docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+          echo "::set-output name=image::$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG"
 
   Continuous-Deployment:
     needs: build-and-push-ecr-image
@@ -95,9 +85,9 @@ jobs:
         run: |
          docker pull ${{secrets.AWS_ECR_LOGIN_URI}}/${{ secrets.ECR_REPOSITORY_NAME }}:latest
          
-      - name: Stop and remove  container if running
-        run: |
-         docker ps -q --filter "name=networksecurity" | grep -q . && docker stop networksecurity && docker rm -fv networksecurity
+      #- name: Stop and remove  container if running
+       # run: |
+        # docker ps -q --filter "name=networksecurity" | grep -q . && docker stop networksecurity && docker rm -fv networksecurity
        
       - name: Run Docker Image to serve users
         run: |
@@ -105,3 +95,4 @@ jobs:
       - name: Clean previous images and containers
         run: |
          docker system prune -f
+
