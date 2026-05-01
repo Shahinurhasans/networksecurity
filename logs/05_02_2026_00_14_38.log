@@ -1,0 +1,5 @@
+[2026-05-02 00:14:40,149] 13 INFO - initiated the data ingestion config
+[2026-05-02 00:14:47,002] 65 INFO - Performed train test split on the dataframe
+[2026-05-02 00:14:47,002] 67 INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[2026-05-02 00:14:47,002] 75 INFO - Exporting train and test file path.
+[2026-05-02 00:14:47,063] 84 INFO - Exported train and test file path.
