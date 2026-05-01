@@ -5,7 +5,7 @@ scikit-learn
 matplotlib
 seaborn
 
-
-
-
--e .
+certifi
+pymongo[srv]==3.12
+pymongo
+#-e .
